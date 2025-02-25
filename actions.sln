@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "democodespacemvpconf", "actions\democodespacemvpconf.csproj", "{3612DBF4-D025-2820-9C5F-AAB848B18652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3612DBF4-D025-2820-9C5F-AAB848B18652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3612DBF4-D025-2820-9C5F-AAB848B18652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3612DBF4-D025-2820-9C5F-AAB848B18652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3612DBF4-D025-2820-9C5F-AAB848B18652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14FB5970-1B68-40D2-8692-E6CA6C3B33A6}
+	EndGlobalSection
+EndGlobal
