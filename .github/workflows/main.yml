@@ -1,4 +1,4 @@
-name: DemoNewCD
+name: EsteiraDeploy
 on:
   workflow_dispatch:
 
@@ -7,37 +7,37 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run a one-line script
-        run: echo Hello, world!
+        run: echo Meu primeiro Pipeline!
 
 
-  deploy-dev:
+  deploy-TU:
     runs-on: ubuntu-latest
     environment: 
-      name: dev
-      url: 'julioarruda.com'
+      name: TU
+      url: 'mazielluiz.com'
     needs: build
     steps:
       - name: Run a one-line script
-        run: echo Deploy Dev
+        run: echo Deploy TU
 
-  deploy-hmg:
+  deploy-TI:
     runs-on: ubuntu-latest
     environment: 
-      name: hmg
-      url: 'julioarruda.com'
-    needs: deploy-dev
+      name: TI
+      url: 'mazielluiz.com'
+    needs: deploy-TI
     steps:
       - name: Run a one-line script
-        run: echo Deploy HMG
+        run: echo Deploy TI
 
 
-  deploy-prd:
+  deploy-HO:
     runs-on: ubuntu-latest
     environment: 
-      name: prd
-      url: 'julioarruda.com'
+      name: HO
+      url: 'mazielliz.com'
     needs: deploy-hmg
     steps:
       - name: Run a one-line script
-        run: echo Deploy PRD
+        run: echo Deploy HO
 
