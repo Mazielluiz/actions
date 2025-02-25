@@ -9,7 +9,6 @@ jobs:
       - name: Run a one-line script
         run: echo Meu primeiro Pipeline!
 
-
   deploy-TU:
     runs-on: ubuntu-latest
     environment: 
@@ -25,18 +24,17 @@ jobs:
     environment: 
       name: TI
       url: 'mazielluiz.com'
-    needs: deploy-TI
+    needs: deploy-TU
     steps:
       - name: Run a one-line script
         run: echo Deploy TI
-
 
   deploy-HO:
     runs-on: ubuntu-latest
     environment: 
       name: HO
-      url: 'mazielliz.com'
-    needs: deploy-hmg
+      url: 'mazielluiz.com'
+    needs: deploy-TI
     steps:
       - name: Run a one-line script
         run: echo Deploy HO

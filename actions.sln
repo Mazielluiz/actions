@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "democodespacemvpconf", "actions\democodespacemvpconf.csproj", "{3612DBF4-D025-2820-9C5F-AAB848B18652}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "esteiradeploy", "actions\esteiradeploy.csproj", "{3612DBF4-D025-2820-9C5F-AAB848B18652}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
